@@ -8,10 +8,10 @@ date: '2022-01-20'
 > - 如何编写基于现有`state`和`action`计算更新状态的reducer 函数
 
 > **先决条件**
-> - 熟悉Redux的关键术语和概念, 如"actions"、“reducers”、“store”和“dispatching”.(有关这些术语的解释,请参阅[第2部分: Redux概念和数据流](http://localhost:3000/posts/redux-concepts-dataflow))
+> - 熟悉Redux的关键术语和概念, 如"actions"、“reducers”、“store”和“dispatching”.(有关这些术语的解释,请参阅[第2部分: Redux概念和数据流](https://github.com/hatch1994/redux-tutorial/blob/main/%E7%AC%AC2%E9%83%A8%E5%88%86%20-%20%E6%A6%82%E5%BF%B5%E5%92%8C%E6%95%B0%E6%8D%AE%E6%B5%81.md))
 
 # 介绍
-在[第2部分: Redux概念和数据流](http://localhost:3000/posts/redux-concepts-dataflow)中,我们研究了Redux如何通过为我们提供一个放置全局应用程序状态的单-中心store仓库来帮助我们构建可维护的应用程序. 我们还讨论了Redux的核心概念,例如 dispatch an action对象和使用返回新状态值的reducer函数.
+在[第2部分: Redux概念和数据流](https://github.com/hatch1994/redux-tutorial/blob/main/%E7%AC%AC2%E9%83%A8%E5%88%86%20-%20%E6%A6%82%E5%BF%B5%E5%92%8C%E6%95%B0%E6%8D%AE%E6%B5%81.md)中,我们研究了Redux如何通过为我们提供一个放置全局应用程序状态的单-中心store仓库来帮助我们构建可维护的应用程序. 我们还讨论了Redux的核心概念,例如 dispatch an action对象和使用返回新状态值的reducer函数.
 
 现在您已经这些部分有所了解, 是时候将这些知识付诸实践了. 我们将构建一个小型示例应用程序,以了解这些部分如何实际协同工作.
 
@@ -49,7 +49,7 @@ export default function App() {
 
 ### 创建一个新的Redux + React Project
 
-完成本教程后,您可能会想尝试处理自己的项目,**我们建议使用[Create-React-App的Redux模版作为创建](https://github.com/reduxjs/cra-template-redux)新Redux+Reduct项目的最快方式**.它附带Redux Toolkit和React-Redux,并且已经配置,使用[您在第1部分看到的“计数器”应用程序示例的现代化版本](http://localhost:3000/posts/redux-overview). 这使您可以直接编写实际的应用程序代码,而无需添加Redux包和设置store.
+完成本教程后,您可能会想尝试处理自己的项目,**我们建议使用[Create-React-App的Redux模版作为创建](https://github.com/reduxjs/cra-template-redux)新Redux+Reduct项目的最快方式**.它附带Redux Toolkit和React-Redux,并且已经配置,使用[您在第1部分看到的“计数器”应用程序示例的现代化版本](https://github.com/hatch1994/redux-tutorial/blob/main/%E7%AC%AC1%E9%83%A8%E5%88%86%20-%20redux%20%E6%A6%82%E8%BF%B0.md). 这使您可以直接编写实际的应用程序代码,而无需添加Redux包和设置store.
 
 如果您想了解如何将Redux添加到项目中的具体细节,请参阅一下说明:
 
