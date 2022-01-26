@@ -72,7 +72,7 @@ export default function App() {
 
 </details>
 
-### exploring the initial Project 探明这个初始化项目
+### exploring the initial Project Create-React-Ap 初始化项目目录结构说明
 
 这个初始项目基于[标准的Create-React-App]项目模版,并进行了一些修改.
 
