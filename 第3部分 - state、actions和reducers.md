@@ -540,8 +540,7 @@ export default function filtersReducer(state = initialState, action) {
 ```
 
 我们仍然比心复制包含过滤器状态的对象, 但由于嵌套较少,因此更容易阅读正在发生的事情.
-
-> ### info
+> **info**
 > 为了使这个页面更短, 我们将跳过展示如何为其他操作编写reducer更新逻辑.
 > 根据[上述要求](https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers#defining-requirements), **尝试自己编写更新**.
 > 如果遇到困难,请参阅本页末尾的代码示例,了解这些reducer的完整实现.
