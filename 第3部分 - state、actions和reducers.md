@@ -349,7 +349,7 @@ export default function appReducer(state = initialState, action) {
 手动编写不可变的更新逻辑很困难,并且**在reducer中意外改变状态是Redux用户最常犯的一个错误**.
 
 > ### tips
-> ** 在实际应用程序中, 您不必手动编写这些复杂的嵌套不可变更新**. 在第**8部分: 使用Redux Toolkit的现代Redux中**, 您将学习如何使用Redux Toolkit来简化在reducer中编写不可变更新逻辑的过程.
+> **在实际应用程序中, 您不必手动编写这些复杂的嵌套不可变更新**. 在第**8部分: 使用Redux Toolkit的现代Redux中**, 您将学习如何使用Redux Toolkit来简化在reducer中编写不可变更新逻辑的过程.
 
 # Handling Additional Actions
 考虑到这一点,让我们为另外几个案例添加reducer逻辑,首先,根据起ID切换代码事项的`completed`字段:
@@ -541,7 +541,7 @@ export default function filtersReducer(state = initialState, action) {
 
 我们仍然比心复制包含过滤器状态的对象, 但由于嵌套较少,因此更容易阅读正在发生的事情.
 
-> info
+> ### info
 > 为了使这个页面更短, 我们将跳过展示如何为其他操作编写reducer更新逻辑.
 > 根据[上述要求](https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers#defining-requirements), **尝试自己编写更新**.
 > 如果遇到困难,请参阅本页末尾的代码示例,了解这些reducer的完整实现.
